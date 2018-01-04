@@ -1,9 +1,17 @@
 # react-map-gl v3.2
 
-Under development
+Realease date: January, 2018
+
+## Highlights
 
 - **Support for Map Reuse**: A new property `reuseMaps` is provided for applications that create and destroy maps, to help work around a mapbox-gl resource leak issue that can lead to a browser crash in certain situations.
 - **Viewport transition**: feature equivalent to Mapbox's flyTo and easeTo; smooth transition when using keyboard navigation or the NavigationControl.
+- **Better parity of Mapbox interaction**: navigation using keyboard and the navigation control matches Mapbox behavior, including smooth transition.
+- **mapbox-gl 0.42.2**
+- **New props**
+  + Map creation: `transformRequest`, `reuseMaps`
+  + Interaction: `touchZoom`, `touchRotate`
+  + Transition: `transitionDuration`, `transitionInterpolator`, `transitionEasing`, `transitionInterruption`, `onTransitionStart`, `onTransitionInterrupt`, `onTransitionEnd`
 
 # react-map-gl v3.1
 
