@@ -81,7 +81,7 @@ const docPages = {
         },
         {
           name: 'Viewport Transition',
-          content: getDocUrl('advanced/transitions.md')
+          content: getDocUrl('advanced/viewport-transition.md')
         }
       ]
     },
